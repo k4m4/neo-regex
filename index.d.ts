@@ -1,11 +1,11 @@
 declare namespace neoRegex {
-    interface Options {
-        /**
-        Only match an exact string. By default, it matches any NEO addresses in a string. Useful with `RegExp#test()` to check if a string is an NEO address.
-        @default false
-        */
-        readonly exact?: boolean;
-    }
+	interface Options {
+		/**
+		Only match an exact string. By default, it matches any NEO addresses in a string. Useful with `RegExp#test()` to check if a string is an NEO address.
+		@default false
+		*/
+		readonly exact?: boolean;
+	}
 }
 
 /**
